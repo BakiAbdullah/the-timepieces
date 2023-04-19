@@ -28,11 +28,11 @@ const Header = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <Link to='/'>Home</Link>
+              <Link to="/">Home</Link>
             </li>
             <li tabIndex={0}>
               <a className="justify-between">
-                Parent
+                Product
                 <svg
                   className="fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -43,17 +43,20 @@ const Header = () => {
                   <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                 </svg>
               </a>
-              <ul className="p-2">
+              <ul className="p-2 bg-white">
                 <li>
-                  <a>Submexcvxcnu 1</a>
+                  <a>Product Gallery</a>
                 </li>
                 <li>
-                  <a>Submenu 2</a>
+                  <a>Product Featured</a>
                 </li>
               </ul>
             </li>
             <li>
-              <Link to='/'>Home</Link>
+              <Link to="/orders">Orders</Link>
+            </li>
+            <li>
+              <Link to="/blog">Blog</Link>
             </li>
           </ul>
         </div>
@@ -62,7 +65,7 @@ const Header = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link to='/'>Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li tabIndex={0}>
             <a>
@@ -87,14 +90,17 @@ const Header = () => {
             </ul>
           </li>
           <li>
-            <Link>Blog</Link>
+            <Link to="/orders">Orders</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
           </li>
         </ul>
       </div>
       <div className="navbar-end flex gap-4">
-        <Link to='/login'>Login </Link>
+        <Link to="/login">Login </Link>
 
-        <Link to='/register'>Register</Link>
+        <Link to="/register">Register</Link>
 
         <span>
           <FaSearch />

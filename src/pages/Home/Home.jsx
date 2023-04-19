@@ -7,13 +7,11 @@ const Home = () => {
       <div className="hero-overlay bg-opacity-30"></div>
       <div className="flex justify-start text-left text-neutral-content">
         <div className="max-w-4xl">
-          <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
-          <p className="mb-5">
-            Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-            excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
-            a id nisi.
-          </p>
-          <button className="btn btn-primary">Get Started</button>
+          <h1 className="mb-5 text-6xl font-bold">
+            "Elevate Your Style with Our Classic Timepieces"
+          </h1>
+          <p className="mb-5">Make a Statement with Our Unique Watch Designs</p>
+          <button className="btn btn-primary">Buy Now</button>
         </div>
       </div>
     </div>
