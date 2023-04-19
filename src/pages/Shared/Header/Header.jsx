@@ -28,7 +28,7 @@ const Header = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <Link>Home</Link>
+              <Link to='/'>Home</Link>
             </li>
             <li tabIndex={0}>
               <a className="justify-between">
@@ -53,7 +53,7 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <Link>Home</Link>
+              <Link to='/'>Home</Link>
             </li>
           </ul>
         </div>
@@ -62,7 +62,7 @@ const Header = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <Link>Home</Link>
+            <Link to='/'>Home</Link>
           </li>
           <li tabIndex={0}>
             <a>
@@ -77,7 +77,7 @@ const Header = () => {
                 <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
               </svg>
             </a>
-            <ul className="p-2">
+            <ul className="p-2 bg-white">
               <li>
                 <a>Product Gallery</a>
               </li>
@@ -92,9 +92,9 @@ const Header = () => {
         </ul>
       </div>
       <div className="navbar-end flex gap-4">
-        <Link>Login </Link>
+        <Link to='/login'>Login </Link>
 
-        <Link>Register</Link>
+        <Link to='/register'>Register</Link>
 
         <span>
           <FaSearch />
