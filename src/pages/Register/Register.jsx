@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Register = () => {
   return (
-    <div className="hero min-h-screen bg-[url('/public/banner2.jpg')]">
+    <div className="hero min-h-screen bg-[url('/banner2.jpg')]">
       <div className="hero-content flex-col">
         <div className="text-center">
           <h1 className="text-5xl text-white mb-8 font-bold"> Please Register !</h1>

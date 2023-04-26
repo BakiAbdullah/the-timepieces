@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Login = () => {
   return (
-    <div className="hero min-h-screen bg-base-200  bg-[url('/public/banner2.jpg')]">
+    <div className="hero min-h-screen bg-base-200  bg-[url('/banner2.jpg')]">
       <div className="hero-content flex-col">
         <div className="text-center">
           <h1 className="text-5xl text-white mb-8 font-bold"> Please Login !</h1>

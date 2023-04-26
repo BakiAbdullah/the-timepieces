@@ -1,9 +1,8 @@
 import React from 'react';
-import man from '../../assets/man.jpg'
 
 const Home = () => {
   return (
-    <div className="hero min-h-screen bg-[url('/public/banner.jpg')]">
+    <div className="hero min-h-screen bg-[url('/banner.jpg')]">
       <div className="hero-overlay bg-opacity-30"></div>
       <div className="flex justify-start text-left text-neutral-content">
         <div className="max-w-4xl">
