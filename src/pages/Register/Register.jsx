@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../providers/AuthProvider';
 
 const Register = () => {
+  
+  const user = useContext(AuthContext);
+
   return (
     <div className="hero min-h-screen bg-[url('/banner2.jpg')]">
       <div className="hero-content flex-col">
